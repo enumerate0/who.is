@@ -1,0 +1,25 @@
+---
+interface Props {
+  title?: string | undefined;
+  description?: string | undefined;
+}
+
+const { title = "WHO IS ZERO", description = "who.is.enumerate.dev" } =
+  Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <!-- console by Elves Sousa from <a href="https://thenounproject.com/browse/icons/term/console/" target="_blank" title="console Icons">Noun Project</a> (CC BY 3.0) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/global.css" />
+    <meta charset="UTF-8" />
+    <meta name="description" property="og:description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="bg-slate-800 text-white">
+    <slot />
+  </body>
+</html>
