@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Monaspace Argon Var";
+  src: url("/fonts/MonaspaceArgonVar.woff2") format("woff2"),
+    url("/fonts/MonaspaceArgonVar.woff") format("woff"), format("svg");
+  font-style: normal;
+  font-display: swap;
+}
