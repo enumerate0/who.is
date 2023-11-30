@@ -1,4 +1,6 @@
 @font-face {
   font-family: "Monaspace Argon";
-  src: url("/MonaspaceArgonVarVF[wght,wdth,slnt].woff");
+  src: url("/MonaspaceArgonVarVF[wght,wdth,slnt].woff") format("woff"),
+    url("/MonaspaceArgonVarVF[wght,wdth,slnt].woff2") format("woff2"),
+    url("/MonaspaceArgonVarVF[wght,wdth,slnt].ttf") format("truetype");
 }
