@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        argon: ["Monaspace Argon", ...defaultTheme.fontFamily.mono],
+        argon: ["Monaspace Argon Var", ...defaultTheme.fontFamily.mono],
       },
     },
   },

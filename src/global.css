@@ -1,6 +1,12 @@
 @font-face {
-  font-family: "Monaspace Argon";
-  src: url("/MonaspaceArgonVarVF[wght,wdth,slnt].woff") format("woff"),
-    url("/MonaspaceArgonVarVF[wght,wdth,slnt].woff2") format("woff2"),
-    url("/MonaspaceArgonVarVF[wght,wdth,slnt].ttf") format("truetype");
+  font-family: "Monaspace Argon Var";
+  src: url("MonaspaceArgonVar-Regular.eot");
+  src: url("MonaspaceArgonVar-Regular.eot?#iefix") format("embedded-opentype"),
+    url("MonaspaceArgonVar-Regular.woff2") format("woff2"),
+    url("MonaspaceArgonVar-Regular.woff") format("woff"),
+    url("MonaspaceArgonVar-Regular.ttf") format("truetype"),
+    url("MonaspaceArgonVar-Regular.svg#MonaspaceArgonVar-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
